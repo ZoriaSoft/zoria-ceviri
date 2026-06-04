@@ -55,10 +55,13 @@ class RecorderUi {
 
 class RecorderController extends StateNotifier<RecorderUi> {
   RecorderController({
-    required this._recorder,
-    required this._transcription,
-    required this._history,
-  }) : super(const RecorderUi(state: RecorderState.idle, elapsedMs: 0, level: 0));
+    required RecorderService recorder,
+    required TranscriptionRepository transcription,
+    required HistoryRepository history,
+  })  : _recorder = recorder,
+        _transcription = transcription,
+        _history = history,
+        super(const RecorderUi(state: RecorderState.idle, elapsedMs: 0, level: 0));
 
   final RecorderService _recorder;
   final TranscriptionRepository _transcription;
