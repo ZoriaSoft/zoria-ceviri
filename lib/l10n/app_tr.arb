@@ -1,0 +1,114 @@
+{
+  "@@locale": "tr",
+  "appTitle": "Zoria Çeviri",
+  "tagline": "Konuş, dinleyelim. Yazıya döksün, dilinden diline taşısın.",
+
+  "homeGreeting": "Hazır olduğunda başla",
+  "homeSubline": "Tuşu basılı tut, doğal konuş, kelimelerin otursun.",
+  "homeHelp": "Yardım",
+  "startRecording": "Başla",
+  "stopRecording": "Dur",
+  "recordHint": "Basılı tut, kayıt başlasın",
+  "pickFromDevice": "Cihazdan ses dosyası seç",
+  "openHistory": "Geçmiş",
+
+  "resultTitle": "Sonuç",
+  "resultKicker": "Zoria · Sonuç",
+  "resultSource": "Transkripsiyon",
+  "resultTarget": "Çeviri",
+  "transcriptLabel": "Transkripsiyon",
+  "translationLabel": "Çeviri",
+  "translateTo": "Hedef dil",
+  "translateToEnglish": "English",
+  "translateToTurkish": "Türkçe",
+  "sourceLanguage": "Kaynak dil",
+  "autoDetect": "Otomatik algıla",
+  "turkish": "Türkçe",
+  "english": "English",
+  "copy": "Kopyala",
+  "share": "Paylaş",
+  "saveToHistory": "Kaydet",
+  "resultShare": "Paylaş",
+  "resultNew": "Yeni kayıt",
+  "noResult": "Bir şey gelmedi. Biraz daha yüksek sesle tekrar dener misin?",
+
+  "recording": "Dinliyorum…",
+  "processing": "Üzerinde çalışıyorum",
+  "uploading": "Sesi gönderiyorum",
+  "transcribing": "Yazıya dökülüyor",
+  "translating": "Çevriliyor",
+  "stateIdle": "Başlamak için tuşu basılı tut",
+  "stateRecording": "Kayıt {time}",
+  "@stateRecording": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "stateProcessing": "Üzerinde çalışıyorum…",
+  "stateDone": "Tamam",
+  "stateError": "Bir sorun çıktı",
+  "error": "Bir sorun çıktı",
+  "permissionMicDenied": "Mikrofon izni kapalı. Ayarlardan açabilirsin.",
+
+  "historyTitle": "Geçmiş",
+  "historyKicker": "Zoria · Geçmiş",
+  "historyEmpty": "Çevirilerin burada birikecek. Henüz boş.",
+  "historyClear": "Hepsini temizle",
+  "historyClearConfirm": "Tüm geçmişi silmek istediğine emin misin? Geri alınamaz.",
+
+  "settingsTitle": "Ayarlar",
+  "settingsKicker": "Zoria · Ayarlar",
+  "settingsLanguage": "Uygulama dili",
+  "settingsLangSystem": "Sistem",
+  "settingsSource": "Kaynak dil",
+  "settingsTarget": "Hedef dil",
+  "settingsFooter": "ZoriaSoft · v1.0",
+  "themeSystem": "Sistem",
+  "themeLight": "Açık",
+  "themeDark": "Koyu",
+  "languageSection": "Dil",
+  "appLanguage": "Uygulama dili",
+  "appLanguageSystem": "Sistem dili",
+  "aboutSection": "Hakkında",
+  "version": "Sürüm",
+  "privacyPolicy": "Gizlilik politikası",
+  "termsOfService": "Kullanım koşulları",
+  "aboutApp": "Zoria Çeviri sesini yazıya döker, dilinden diline taşır. Sesler güvenli bir katman üzerinden işlenir — kayıtların sunucularımızda saklanmaz.",
+
+  "navHome": "Konuş",
+  "navHistory": "Geçmiş",
+  "navSettings": "Ayarlar",
+
+  "durationSeconds": "{seconds}sn",
+  "@durationSeconds": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+
+  "justNow": "şimdi",
+  "minutesAgo": "{count}dk önce",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}sa önce",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "yesterday": "dün",
+  "daysAgo": "{count}g önce",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "cancel": "Vazgeç",
+  "delete": "Sil",
+  "ok": "Tamam",
+  "retry": "Tekrar dene"
+}

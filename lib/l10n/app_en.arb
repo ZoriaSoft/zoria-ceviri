@@ -1,0 +1,114 @@
+{
+  "@@locale": "en",
+  "appTitle": "Zoria Çeviri",
+  "tagline": "Speak. We listen, transcribe, translate.",
+
+  "homeGreeting": "Ready when you are",
+  "homeSubline": "Hold the button, speak naturally, let the words settle.",
+  "homeHelp": "Help",
+  "startRecording": "Start",
+  "stopRecording": "Stop",
+  "recordHint": "Hold to record",
+  "pickFromDevice": "Pick an audio file",
+  "openHistory": "History",
+
+  "resultTitle": "Result",
+  "resultKicker": "Zoria · Result",
+  "resultSource": "Transcript",
+  "resultTarget": "Translation",
+  "transcriptLabel": "Transcript",
+  "translationLabel": "Translation",
+  "translateTo": "Translate to",
+  "translateToEnglish": "English",
+  "translateToTurkish": "Türkçe",
+  "sourceLanguage": "Source language",
+  "autoDetect": "Auto-detect",
+  "turkish": "Türkçe",
+  "english": "English",
+  "copy": "Copy",
+  "share": "Share",
+  "saveToHistory": "Save",
+  "resultShare": "Share",
+  "resultNew": "New",
+  "noResult": "Nothing came back. Try again, a little louder maybe.",
+
+  "recording": "Listening…",
+  "processing": "Working on it",
+  "uploading": "Sending the audio",
+  "transcribing": "Transcribing",
+  "translating": "Translating",
+  "stateIdle": "Hold the button to start",
+  "stateRecording": "Recording {time}",
+  "@stateRecording": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "stateProcessing": "Working on it…",
+  "stateDone": "Done",
+  "stateError": "Something went wrong",
+  "error": "Something went wrong",
+  "permissionMicDenied": "Mic access is off. Open settings to allow it.",
+
+  "historyTitle": "History",
+  "historyKicker": "Zoria · History",
+  "historyEmpty": "Your translations will live here. Nothing yet.",
+  "historyClear": "Clear all",
+  "historyClearConfirm": "Erase every entry? This cannot be undone.",
+
+  "settingsTitle": "Settings",
+  "settingsKicker": "Zoria · Settings",
+  "settingsLanguage": "App language",
+  "settingsLangSystem": "System",
+  "settingsSource": "Source language",
+  "settingsTarget": "Target language",
+  "settingsFooter": "Made by ZoriaSoft · v1.0",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "languageSection": "Language",
+  "appLanguage": "App language",
+  "appLanguageSystem": "System default",
+  "aboutSection": "About",
+  "version": "Version",
+  "privacyPolicy": "Privacy policy",
+  "termsOfService": "Terms of service",
+  "aboutApp": "Zoria Çeviri turns your voice into text and lets you carry it across languages. Audio is processed through a secure proxy — your recordings are not stored on our servers.",
+
+  "navHome": "Speak",
+  "navHistory": "History",
+  "navSettings": "Settings",
+
+  "durationSeconds": "{seconds}s",
+  "@durationSeconds": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+
+  "justNow": "just now",
+  "minutesAgo": "{count}m ago",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}h ago",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "yesterday": "yesterday",
+  "daysAgo": "{count}d ago",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "ok": "OK",
+  "retry": "Retry"
+}

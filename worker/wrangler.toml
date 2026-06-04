@@ -1,0 +1,8 @@
+name = "zoria-ceviri"
+main = "src/index.ts"
+compatibility_date = "2025-01-15"
+
+[vars]
+ALLOW_ORIGIN = "*"
+RATE_PER_MIN = "30"
+NIM_FUNCTION_ID = "b702f636-f60c-4a3d-a6f4-f3568c13bd7d"
