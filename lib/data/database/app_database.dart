@@ -27,7 +27,7 @@ class AppDatabase extends _$AppDatabase {
 
   /// Test-only constructor. Lets the test suite inject an in-memory executor
   /// so widget tests don't touch the pl
-  AppDatabase.forTesting(QueryExecutor e) : super(e);
+  AppDatabase.forTesting(super.e);
 
   @override
   int get schemaVersion => 1;
