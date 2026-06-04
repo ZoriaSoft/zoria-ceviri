@@ -42,7 +42,7 @@ class HistoryScreen extends ConsumerWidget {
           return ListView.separated(
             padding: const EdgeInsets.fromLTRB(20, 16, 20, 24),
             itemCount: list.length + 1,
-            separatorBuilder: (_, _) => const SizedBox(height: 10),
+            separatorBuilder: (context, i) => const SizedBox(height: 10),
             itemBuilder: (context, i) {
               if (i == 0) {
                 return SectionHeader(kicker: l.historyKicker, title: l.historyTitle);
